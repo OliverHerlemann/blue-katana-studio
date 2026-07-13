@@ -7,8 +7,5 @@ export default function Header() {
             <img src="/blue_katana_horizontal.png" alt="A blue Katana" />
             <h2>Webdesign and Development</h2>
         </div>
-        <div className={styles.FlowtingLinksContainer}>
-            <h3>About us</h3>
-        </div>
     </header>
 }

@@ -6,4 +6,8 @@
   background: rgb(34, 34, 38);
   width: 70%;
   min-height: 100vh;
+  overflow-x: hidden;
+}
+.page main {
+  min-height: 150vh;
 }

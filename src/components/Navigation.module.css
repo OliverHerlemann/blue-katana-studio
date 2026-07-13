@@ -1,0 +1,21 @@
+.navDiv {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-top: solid 2.5px grey;
+    border-bottom: solid 2.5px grey;
+    margin: 0.4rem;
+    padding: 0.4rem 0rem;
+    position: sticky;
+    filter: drop-shadow(0 0 2px white);
+}
+.navDiv button {
+    border: none;
+    color:aquamarine;
+    background-color: transparent;
+    font-size: 1.8rem;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+}
