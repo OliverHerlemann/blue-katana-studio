@@ -27,6 +27,12 @@
   border-bottom-right-radius: 50%;
   box-shadow: 0 0 15px white;
   overflow: hidden;
+  transition: 0.35s ease all;
+}
+.mainHeader:hover {
+  box-shadow: 0 0 15px white,
+    0 0 25px white,
+    0 0 40px white;
 }
 .mainHeader h1 {
   font-size: 4.5rem;
