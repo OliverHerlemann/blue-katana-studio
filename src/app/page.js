@@ -17,7 +17,7 @@ export default function Home() {
       <LangButton t={t} setLang={setLang}/>
       <Navigation t={t} />
       <main>
-        
+        <p>{t.InfoTextAboutMe}</p>
       </main>
     </div>
   );
