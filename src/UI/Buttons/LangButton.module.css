@@ -1,0 +1,51 @@
+.div {
+    align-self: flex-end;
+    margin: 0.3rem;
+    position: relative;
+}
+.div button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 0.4rem;
+    padding: 0.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.div button span {
+    display: inline-block;
+}
+.div button:hover {
+    text-decoration: underline;
+    animation: scale-up 0.9s ease infinite;
+}
+
+@keyframes scale-up {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1);}
+}
+.div ul {
+    list-style: none;
+    position: absolute;
+    margin: 0.1rem;
+    padding: 0.6rem;
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    border-radius: 0.8rem;
+    width: 85%;
+    border: solid 1.6px grey;
+    z-index: 3;
+}
+.div ul li {
+    align-self: center;
+    padding: 0.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.div ul li:hover {
+    background-color: rgb(68, 68, 68);
+    border-radius: 0.4rem;
+}

@@ -6,6 +6,7 @@
   justify-content: flex-start;
   flex-direction: column;
   overflow: hidden;
+  margin-bottom: -2rem;
 }
 .mainHeader {
   display: flex;
