@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.page}>
       <Header t={t} />
       <LangButton t={t} setLang={setLang}/>
-      <Navigation />
+      <Navigation t={t} />
       <main>
         
       </main>

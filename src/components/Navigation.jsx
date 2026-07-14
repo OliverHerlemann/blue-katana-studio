@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./Navigation.module.css";
 
-export default function Navigation() {
+export default function Navigation({t}) {
     const [isSticky, setIsSticky] = useState(false);
     const navDivRef = useRef(null);
     const triggerPoint = useRef(0);
@@ -43,8 +43,8 @@ export default function Navigation() {
                 className={`${styles.navDiv} ${isSticky ? styles.navSticky : ""}`}
                 style={isSticky ? { width: dimensions.width } : undefined}
             >
-                <button>About us</button>
-                <button>Pricing</button>
+                <button>{t.Navigation.About}</button>
+                <button>{t.Navigation.Price}</button>
                 <button>Portfolio</button>
             </div>
             {isSticky && <div style={{ height: dimensions.height }} />}

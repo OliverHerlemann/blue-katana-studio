@@ -17,7 +17,7 @@ export default function LangButton({t, setLang}){
                     stiffness: 200,
                     damping: 20
                 }}
-    >△</motion.span></button>
+    >▲</motion.span></button>
         {isOpen && <ul>
             <li onClick={() => {setLang("en"); setIsOpen(false)}} >EN</li>
             <li onClick={() => {setLang("de"); setIsOpen(false)}} >DE</li>

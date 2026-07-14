@@ -1,4 +1,8 @@
 {
     "LangButton": "DE",
-    "Heading2": "Webdesign und Entwicklung"
+    "Heading2": "Webdesign und Entwicklung",
+    "Navigation": {
+        "About": "Über uns",
+        "Price": "Preise"
+    }
 }

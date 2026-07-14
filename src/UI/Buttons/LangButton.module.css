@@ -12,20 +12,16 @@
     padding: 0.3rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 .div button span {
     display: inline-block;
+    font-size: 92%;
 }
 .div button:hover {
     text-decoration: underline;
-    animation: scale-up 0.9s ease infinite;
-}
-
-@keyframes scale-up {
-    0% { transform: scale(1);}
-    50% { transform: scale(1.1);}
-    100% { transform: scale(1);}
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 3px aliceblue);
 }
 .div ul {
     list-style: none;
@@ -35,7 +31,7 @@
     background-color: rgb(24, 24, 24);
     color: aliceblue;
     border-radius: 0.8rem;
-    width: 85%;
+    width: 90%;
     border: solid 1.6px grey;
     z-index: 3;
 }
