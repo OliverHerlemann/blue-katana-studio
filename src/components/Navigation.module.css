@@ -3,19 +3,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 0.8rem;
     border-top: solid 2.5px grey;
     border-bottom: solid 2.5px grey;
     margin: 0.4rem;
-    padding: 0.4rem 0rem;
-    position: sticky;
+    padding: 0rem 0rem;
     filter: drop-shadow(0 0 2px white);
+    background-color: black; /* wichtig, sonst scheint der Content beim Scrollen durch */
 }
+
 .navDiv button {
     border: none;
-    color:aquamarine;
+    color: lightblue;
     background-color: transparent;
     font-size: 1.8rem;
     padding: 0.4rem 0.9rem;
+    margin: 0.5rem 0.2rem;
     cursor: pointer;
+    transition: all 0.35s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navDiv:hover button {
+    opacity: 0.8;
+    filter: blur(4px);
+}
+.navDiv button:hover {
+    filter: drop-shadow(0 0 6px lightblue) blur(0);
+    opacity: 1;
+    transform: scale(1.10);
+    color: aliceblue;
+}
+.navSticky {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0.4rem 0;
+    z-index: 100;
 }
