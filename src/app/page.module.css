@@ -2,7 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: rgb(34, 34, 38);
   width: 70%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.page main {
+  min-height: 150vh;
+}
+
+.page main p {
+  margin: 2.5rem 3.5rem;
+  padding: 0.5rem;
+  color: aliceblue;
+  font-size: 1.5rem;
 }

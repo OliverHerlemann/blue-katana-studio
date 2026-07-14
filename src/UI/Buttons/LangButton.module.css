@@ -1,0 +1,47 @@
+.div {
+    align-self: flex-end;
+    margin: 0.3rem;
+    position: relative;
+}
+.div button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 0.4rem;
+    padding: 0.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.div button span {
+    display: inline-block;
+    font-size: 92%;
+}
+.div button:hover {
+    text-decoration: underline;
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 3px aliceblue);
+}
+.div ul {
+    list-style: none;
+    position: absolute;
+    margin: 0.1rem;
+    padding: 0.6rem;
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    border-radius: 0.8rem;
+    width: 90%;
+    border: solid 1.6px grey;
+    z-index: 3;
+}
+.div ul li {
+    align-self: center;
+    padding: 0.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.div ul li:hover {
+    background-color: rgb(68, 68, 68);
+    border-radius: 0.4rem;
+}
