@@ -9,9 +9,13 @@ export default function ContactModal({ t, ref }) {
 
     useImperativeHandle(ref, () => ({
         showModal: () => {
-        contactModalRef.current?.showModal();
+            document.body.style.overflow = "hidden";
+            contactModalRef.current?.showModal();
         },
-        close: () => contactModalRef.current?.close(),
+        close: () => {
+            contactModalRef.current?.close(),
+            document.body.style.overflow = "";
+        }
     }));
 
     const handleBackdropClick = (e) => {

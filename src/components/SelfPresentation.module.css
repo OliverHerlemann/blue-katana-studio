@@ -30,9 +30,9 @@
     transform: scale(1.9);
 }
 @keyframes smoky {
-    0% {box-shadow: 0 0 8px lightblue, 0 0 20px lightblue, 0 0 40px lightblue;}
+    0% {box-shadow: 0 0 8px lightskyblue, 0 0 20px lightskyblue, 0 0 42px lightskyblue;}
     50% {box-shadow: 0 0 12px aliceblue, 0 0 32px aliceblue;}
-    100% {box-shadow: 0 0 8px lightblue, 0 0 20px lightblue, 0 0 40px lightblue;}
+    100% {box-shadow: 0 0 8px lightskyblue, 0 0 20px lightskyblue, 0 0 42px lightskyblue;}
 }
 
 .presentationText {
@@ -47,6 +47,7 @@
     color: lightskyblue;
     font-size: 1.2rem;
     margin-bottom: 0rem;
+    margin-top: -0.3rem;
 }
 .mainDiv .presentationText p {
     color: aliceblue;

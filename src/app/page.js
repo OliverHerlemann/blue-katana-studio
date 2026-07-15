@@ -25,11 +25,16 @@ export default function Home() {
       <LangButton t={t} setLang={setLang}/>
       <Navigation t={t} />
       <main>
-        <SelfPresentation t={t} />
-        <h3>{t.Navigation.About}</h3>
-        <p>{t.InfoTextAboutMe1}</p>
-        <p>{t.InfoTextAboutMe2}</p>
-        <p>{t.InfoTextAboutMe3}</p>
+        <section id="aboutMe" >
+          <SelfPresentation t={t} />
+          <h3>{t.Navigation.About}</h3>
+          <p>{t.InfoTextAboutMe1}</p>
+          <p>{t.InfoTextAboutMe2}</p>
+          <p>{t.InfoTextAboutMe3}</p>
+        </section>
+        <section id="pricing">
+
+        </section>
       </main>
     </div>
   );

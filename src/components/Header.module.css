@@ -27,7 +27,7 @@
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   box-shadow: 0 0 15px white;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 0.25s ease all;
   transform-origin: top center;
   cursor: pointer;
@@ -41,26 +41,29 @@
   transform: scale(0.97);
 }
 .mainHeader h1 {
-  font-size: 4.5rem;
-  margin: 0.3rem 3rem 0rem 3rem;
+  font-size: 4.7rem;
+  margin: 0.7rem 3rem 0.3rem 3rem;
   color: rgb(113, 151, 181);
+  color: lightskyblue;
   filter: drop-shadow(0 0 1.2px white);
+  font-family: arial;
 }
 .mainHeader h1 span {
   color: aliceblue;
 }
 .mainHeader img {
   position: relative;
-  transform: translateY(-45%);
+  transform: translateY(-43%);
   width: 40rem;
   height: auto;
   filter: drop-shadow(0 0 3px white);
 }
 .mainHeader h2 {
   font-size: 2rem;
-  transform: translateY(-1120%);
+  transform: translateY(-1450%);
   margin: 0rem 3rem 0rem 3rem;
   color: rgb(204, 220, 234);
   filter: drop-shadow(0 0 1.2px white);
   z-index: 2;
+  font-family: arial;
 }
