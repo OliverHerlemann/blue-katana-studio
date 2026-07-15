@@ -14,8 +14,14 @@ export default function ContactModal({ t, ref }) {
         close: () => contactModalRef.current?.close(),
     }));
 
+    const handleBackdropClick = (e) => {
+        if (e.target === contactModalRef.current) {
+            contactModalRef.current?.close();
+        }
+    };
 
-    return <dialog ref={contactModalRef} className={styles.mainModal}>
+    return <dialog ref={contactModalRef} onClick={handleBackdropClick}
+            className={styles.mainModal}>
         <button onClick={() => contactModalRef.current?.close()}>X</button>
         <div>
             <h3>{t.ContactModalHeading}</h3>

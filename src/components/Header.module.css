@@ -7,7 +7,6 @@
   flex-direction: column;
   overflow: hidden;
   margin-bottom: -2rem;
-  cursor: pointer;
 }
 .mainHeader {
   display: flex;
@@ -31,6 +30,7 @@
   overflow: hidden;
   transition: 0.25s ease all;
   transform-origin: top center;
+  cursor: pointer;
 }
 .mainHeader:hover {
   box-shadow: 0 0 15px white,
