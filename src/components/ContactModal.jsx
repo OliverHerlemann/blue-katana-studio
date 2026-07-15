@@ -20,12 +20,15 @@ export default function ContactModal({ t, ref }) {
 
     const handleBackdropClick = (e) => {
         if (e.target === contactModalRef.current) {
+            document.body.style.overflow = "";
             contactModalRef.current?.close();
         }
     };
 
     return <dialog ref={contactModalRef} onClick={handleBackdropClick}
-            className={styles.mainModal}>
+            className={styles.mainModal} onClose={() => {
+                document.body.style.overflow = "";
+        }}>
         <button onClick={() => contactModalRef.current?.close()}>X</button>
         <div>
             <h3>{t.ContactModalHeading}</h3>
