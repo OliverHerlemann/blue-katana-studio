@@ -6,6 +6,7 @@ import Navigation from "../components/Navigation.jsx";
 import { useLanguage } from "@/context/LanguageContext";
 import LangButton from "@/components/UI/Buttons/LangButton.jsx";
 import ContactModal from "@/components/ContactModal";
+import SelfPresentation from "@/components/SelfPresentation";
 import { useRef } from "react";
 
 export default function Home() {
@@ -24,7 +25,11 @@ export default function Home() {
       <LangButton t={t} setLang={setLang}/>
       <Navigation t={t} />
       <main>
-        <p>{t.InfoTextAboutMe}</p>
+        <SelfPresentation t={t} />
+        <h3>{t.Navigation.About}</h3>
+        <p>{t.InfoTextAboutMe1}</p>
+        <p>{t.InfoTextAboutMe2}</p>
+        <p>{t.InfoTextAboutMe3}</p>
       </main>
     </div>
   );

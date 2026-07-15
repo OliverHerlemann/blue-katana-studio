@@ -3,8 +3,15 @@
     "Heading2": "Webdesign und Entwicklung",
     "ContactModalHeading": "E-Mail für Anfragen:",
     "Navigation": {
-        "About": "Über uns",
+        "About": "Über mich",
         "Price": "Preise"
     },
-    "InfoTextAboutMe": "Ich entwickle moderne Webseiten und digitale Erlebnisse mit Fokus auf Design, Performance und Benutzerfreundlichkeit. Besonders komplexe Entwicklungsaufgaben und die Gestaltung kreativer Benutzeroberflächen begeistern mich. Mit durchdachten Animationen und einer klaren Designsprache entstehen Webseiten, die nicht nur gut aussehen, sondern auch angenehm zu bedienen sind. Mein Leistungsangebot umfasst die Entwicklung individueller Weblösungen für unterschiedlichste Branchen und Einsatzbereiche – von modernen Restaurant-, Arzt- und Unternehmenswebseiten über E-Commerce-Lösungen bis hin zu kleinen Unterhaltungsseiten und webbasierten Projekten. Jede Website wird individuell auf die Anforderungen und Ziele des jeweiligen Projekts abgestimmt. Ergänzend biete ich Logo-Design sowie die Entwicklung deutsch- und englischsprachiger Webauftritte an. Darüber hinaus unterstütze ich auch bei der technischen Umsetzung und langfristigen Betreuung des Webauftritts. Dazu gehören die Einrichtung und Verwaltung von Domains, Hosting-Lösungen sowie die technische Pflege der Website. Im Rahmen eines Servicevertrags übernehme ich kleinere Anpassungen, Aktualisierungen und Optimierungen, damit der digitale Auftritt langfristig zuverlässig, aktuell und funktionsfähig bleibt."
+    "SelfPresentation": {
+        "Founder": "Gründer",
+        "Age": "29 Jahre alt",
+        "Quote": "\"Ich lebe für kreative Designs, technische Innovation und für die Entwicklung von Systemen bei denen einfach alles zusammenpasst.\""
+    },
+    "InfoTextAboutMe1": "Ich entwickle moderne Webseiten und digitale Erlebnisse mit Fokus auf Design, Performance und Benutzerfreundlichkeit. Besonders komplexe Entwicklungsaufgaben und die Gestaltung kreativer Benutzeroberflächen begeistern mich. Mit durchdachten Animationen und einer klaren Designsprache entstehen Webseiten, die nicht nur gut aussehen, sondern auch angenehm zu bedienen sind.",
+    "InfoTextAboutMe2": "Mein Leistungsangebot umfasst die Entwicklung individueller Weblösungen für unterschiedlichste Branchen und Einsatzbereiche – von modernen Restaurant-, Arzt- und Unternehmenswebseiten über E-Commerce-Lösungen bis hin zu kleinen Unterhaltungsseiten und webbasierten Projekten. Jede Website wird individuell auf die Anforderungen und Ziele des jeweiligen Projekts abgestimmt. Ergänzend biete ich Logo-Design sowie die Entwicklung deutsch- und englischsprachiger Webauftritte an.",
+    "InfoTextAboutMe3": "Darüber hinaus unterstütze ich auch bei der technischen Umsetzung und langfristigen Betreuung des Webauftritts. Dazu gehören die Einrichtung und Verwaltung von Domains, Hosting-Lösungen sowie die technische Pflege der Website. Im Rahmen eines Servicevertrags übernehme ich kleinere Anpassungen, Aktualisierungen und Optimierungen, damit der digitale Auftritt langfristig zuverlässig, aktuell und funktionsfähig bleibt."
 }
