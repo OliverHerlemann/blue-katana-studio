@@ -1,10 +1,12 @@
 {
     "LangButton": "EN",
     "Heading2": "Webdesign and Development",
-    "ContactModalHeading": "E-Mail for requests:",
+    "ContactModalHeading": "Send me your requests:",
     "Navigation": {
         "About": "About me",
-        "Price": "Pricing"
+        "Service": "Service",
+        "Price": "Pricing",
+        "Portfolio": "Portfolio"
     },
     "SelfPresentation": {
         "Founder": "Founder",
@@ -14,5 +16,13 @@
     
     "InfoTextAboutMe1": "I develop modern websites and digital experiences with a focus on design, performance, and usability. I especially enjoy tackling complex development challenges and creating creative user interfaces. With thoughtful animations and a clear design language, I create websites that not only look impressive but are also intuitive and enjoyable to use.",
     "InfoTextAboutMe2": "My services include the development of customized web solutions for various industries and use cases – from modern restaurant, medical, and business websites to e-commerce solutions as well as smaller entertainment websites and web-based projects. Each website is individually tailored to the requirements and goals of the respective project. In addition, I offer logo design as well as the creation of German- and English-language websites.",
-    "InfoTextAboutMe3": "I also provide support with the technical implementation and long-term maintenance of your digital presence. This includes domain setup and management, hosting solutions, and the technical maintenance of your website. Through a service agreement, I take care of smaller adjustments, updates, and optimizations to ensure that your website remains reliable, up to date, and fully functional over time."
+    "InfoTextAboutMe3": "I also provide support with the technical implementation and long-term maintenance of your digital presence. This includes domain setup and management, hosting solutions, and the technical maintenance of your website. Through a service agreement, I take care of smaller adjustments, updates, and optimizations to ensure that your website remains reliable, up to date, and fully functional over time.",
+    "ServiceSection": {
+        "ServiceOneHeading": "",
+        "ServiceOne": "I develop your Webapplication on the basis of your Vision, until you are totaly satisfied with the product",
+        "ServiceTwoHeading": "",
+        "ServiceTwo": "I ",
+        "ServiceThreeHeading": "",
+        "ServiceThree": "I offer an "
+    }
 }

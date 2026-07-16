@@ -44,8 +44,9 @@ export default function Navigation({t}) {
                 style={isSticky ? { width: dimensions.width } : undefined}
             >
                 <button>{t.Navigation.About}</button>
+                <button>{t.Navigation.Service}</button>
                 <button>{t.Navigation.Price}</button>
-                <button>Portfolio</button>
+                <button>{t.Navigation.Portfolio}</button>
             </div>
             {isSticky && <div style={{ height: dimensions.height }} />}
         </nav>

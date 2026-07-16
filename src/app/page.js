@@ -8,6 +8,7 @@ import LangButton from "@/components/UI/Buttons/LangButton.jsx";
 import ContactModal from "@/components/ContactModal";
 import SelfPresentation from "@/components/SelfPresentation";
 import { useRef } from "react";
+import ServiceSection from "@/components/ServiceSection";
 
 export default function Home() {
 
@@ -32,7 +33,13 @@ export default function Home() {
           <p>{t.InfoTextAboutMe2}</p>
           <p>{t.InfoTextAboutMe3}</p>
         </section>
+        <section id="service">
+          <ServiceSection t={t} />
+        </section>
         <section id="pricing">
+
+        </section>
+        <section id="portfolio">
 
         </section>
       </main>
