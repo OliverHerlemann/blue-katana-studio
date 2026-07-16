@@ -19,8 +19,10 @@
     "ServiceSection": {
         "ServiceOneHeading": "Design & Entwicklung",
         "ServiceOne": "Ich entwickle und gestalte Ihre Website nach Ihren Vorstellungen – von der ersten Idee bis zum fertigen Ergebnis. Dabei arbeite ich eng mit Ihnen zusammen, bis Sie vollständig zufrieden sind.",
+        
         "ServiceTwoHeading": "Launch & Hosting",
         "ServiceTwo": "Ich übernehme die vollständige Veröffentlichung Ihrer Website – einschließlich Domain, Hosting, SSL-Zertifikat und aller technischen Schritte für einen erfolgreichen Start.",
+        
         "ServiceThreeHeading": "Wartung & Support",
         "ServiceThree": "Auf Wunsch betreue ich Ihre Website auch langfristig. Im Rahmen eines Servicevertrags kümmere ich mich um Wartung, technische Verwaltung sowie kleinere Anpassungen und Aktualisierungen."
     }

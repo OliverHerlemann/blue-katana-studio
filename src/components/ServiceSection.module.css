@@ -15,20 +15,18 @@
     font-weight: 600;
     font-family: arial;
     font-size: 2.4rem;
-
-
 }
 .mainServiceContainer .ServiceDisplay {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1.2rem 1.5rem;
-    padding: 2.2rem;
+    margin: 1.2rem 1.9rem;
+    padding: 2.8rem;
     background-color: rgb(11, 11, 11);
     border-radius: 1.5rem;
     height: auto;
-    width: 85%;
+    width: 92%;
     min-height: 28rem;
 }
 .mainServiceContainer .ServiceDisplay .arrow {
@@ -40,7 +38,7 @@
 .mainServiceContainer .ServiceDisplay .infoBox {
     border-radius: 0.9rem;
     background-color: rgb(62, 62, 62);
-    width: 100%;
+    width: 95%;
     align-self: center;
 } 
 .mainServiceContainer .ServiceDisplay .infoBox h4 {
