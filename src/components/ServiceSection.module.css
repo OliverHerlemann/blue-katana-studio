@@ -33,7 +33,7 @@
     font-size: 3rem;
     padding: 0.25rem;
     margin: 0.5rem;
-    color:bisque;
+    color: bisque;
 }
 .mainServiceContainer .ServiceDisplay .infoBox {
     border-radius: 0.9rem;
@@ -43,7 +43,7 @@
 } 
 .mainServiceContainer .ServiceDisplay .infoBox h4 {
     font-size: 1.4rem;
-    color: bisque;
+    color: rgb(116, 217, 103);
     font-family: arial;
     text-transform: uppercase;
     margin: 0.9rem 0.9rem 0rem 0.9rem;
