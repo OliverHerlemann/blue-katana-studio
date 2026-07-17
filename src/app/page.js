@@ -10,6 +10,7 @@ import SelfPresentation from "@/components/SelfPresentation";
 import { useRef } from "react";
 import ServiceSection from "@/components/ServiceSection";
 import RequestsTo from "@/components/RequestsTo";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -45,6 +46,9 @@ export default function Home() {
 
         </section>
       </main>
+      <footer>
+        <Footer t={t}/>
+      </footer>
     </div>
   );
 }

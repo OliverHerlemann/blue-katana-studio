@@ -1,7 +1,7 @@
 {
     "LangButton": "EN",
     "Heading2": "Webdesign and Development",
-    "ContactModalHeading": "Send me your requests",
+    "ContactModalHeading": "Send your request to: ",
     "Navigation": {
         "About": "About me",
         "Service": "Service",
@@ -27,5 +27,9 @@
         "ServiceThreeHeading": "Maintenance & Support",
         "ServiceThree": "If desired, I also provide ongoing website maintenance and support. Through a service agreement, I handle technical maintenance, website management, as well as smaller updates and modifications to keep your website secure, up to date, and running smoothly."
     },
-    "RequestsTo": "Send your request to: "
+    "RequestsTo": "Send your request to: ",
+
+
+
+    "legalNoticeAndPrivacyPolicy" : "Legal Notice & Privacy Policy"
 }
