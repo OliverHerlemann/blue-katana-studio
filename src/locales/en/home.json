@@ -1,9 +1,31 @@
 {
     "LangButton": "EN",
     "Heading2": "Webdesign and Development",
+    "ContactModalHeading": "Send me your requests",
     "Navigation": {
-        "About": "About us",
-        "Price": "Pricing"
+        "About": "About me",
+        "Service": "Service",
+        "Price": "Pricing",
+        "Portfolio": "Portfolio"
     },
-    "InfoTextAboutMe": "I am an Webdesigner and Developer"
+    "SelfPresentation": {
+        "Founder": "Founder",
+        "Age": "29 years old",
+        "Quote": "\"I'm passionate about creative designs, technical Innovation and for the development of Systems that feel complete.\""
+    },
+    
+    "InfoTextAboutMe1": "I develop modern websites and digital experiences with a focus on design, performance, and usability. I especially enjoy tackling complex development challenges and creating creative user interfaces. With thoughtful animations and a clear design language, I create websites that not only look impressive but are also intuitive and enjoyable to use.",
+    "InfoTextAboutMe2": "My services include the development of customized web solutions for various industries and use cases – from modern restaurant, medical, and business websites to e-commerce solutions as well as smaller entertainment websites and web-based projects. Each website is individually tailored to the requirements and goals of the respective project. In addition, I offer logo design as well as the creation of German- and English-language websites.",
+    "InfoTextAboutMe3": "I also provide support with the technical implementation and long-term maintenance of your digital presence. This includes domain setup and management, hosting solutions, and the technical maintenance of your website. Through a service agreement, I take care of smaller adjustments, updates, and optimizations to ensure that your website remains reliable, up to date, and fully functional over time.",
+    "ServiceSection": {
+        "ServiceOneHeading": "Design & Development",
+        "ServiceOne": "I design and develop your website according to your vision – from the initial concept to the finished product. Throughout the process, I work closely with you to ensure you are completely satisfied with the final result.",
+
+        "ServiceTwoHeading": "Launch & Hosting",
+        "ServiceTwo": "I take care of the complete deployment of your website, including domain registration, hosting, SSL certificates, and all the technical steps required for a successful launch.",
+
+        "ServiceThreeHeading": "Maintenance & Support",
+        "ServiceThree": "If desired, I also provide ongoing website maintenance and support. Through a service agreement, I handle technical maintenance, website management, as well as smaller updates and modifications to keep your website secure, up to date, and running smoothly."
+    },
+    "RequestsTo": "Send your request to: "
 }
