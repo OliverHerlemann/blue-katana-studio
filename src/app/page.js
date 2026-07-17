@@ -9,6 +9,7 @@ import ContactModal from "@/components/ContactModal";
 import SelfPresentation from "@/components/SelfPresentation";
 import { useRef } from "react";
 import ServiceSection from "@/components/ServiceSection";
+import RequestsTo from "@/components/RequestsTo";
 
 export default function Home() {
 
@@ -35,6 +36,7 @@ export default function Home() {
         </section>
         <section id="service">
           <ServiceSection t={t} />
+          <RequestsTo t={t} />
         </section>
         <section id="pricing">
 
