@@ -24,8 +24,8 @@ export default function Pricing({t}){
             </div>
             <div className={styles.thirdPricing}>
                 <h4>{t.ServiceSection.ServiceThreeHeading}</h4>
-
-
+                <p className={styles.from}>{t.from}</p>
+                <p className={styles.monthlyPay}>45€/Mo</p>
             </div>
         </div>
         <RequestsTo t={t} />

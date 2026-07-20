@@ -41,10 +41,12 @@
 .pricingContainer h4 {
     font-size: 1.4rem;
     color: rgb(116, 217, 103);
+    background-color: rgb(26, 26, 26);
     font-family: arial;
     text-transform: uppercase;
     margin: 0.9rem 0.9rem 0rem 0.9rem;
     padding: 0.4rem;
+    border-bottom: 3px solid aliceblue;
 }
 .pricingContainer .firstPricing {
     background-color: black;
@@ -78,7 +80,7 @@
 }
 .pricingContainer p.oldPrice {
     text-decoration: line-through;
-    color: orangered;
+    color: rgb(246, 67, 2, 0.75);
     font-size: 2.2rem;
     font-weight: 500;
     background: rgb(35, 35, 35);
@@ -112,8 +114,20 @@
 }
 .pricingContainer .free .freeInfoText {
     font-size: 1.3rem;
-    padding: 2rem 0.5rem 0.5rem 0.5rem;
+    padding: 3.5rem 0.5rem 0rem 0.5rem;
     color: aliceblue;
     text-align: center;
     transform: translate(0, -1.5rem);
+}
+.pricingContainer .monthlyPay {
+    color: rgb(116, 217, 103);
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    border: 2px solid rgb(116, 217, 103);
+    transform: translate(0, 7rem);
+    background-color: rgb(35, 35, 35);
 }
