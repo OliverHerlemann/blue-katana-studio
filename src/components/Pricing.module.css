@@ -34,7 +34,9 @@
     background-color: black;
     border-radius: 0.5rem;
     height: 30rem;
-    width: 25%;
+    width: 28%;
+    padding: 0rem;
+    margin: 0rem;
 }
 .pricingContainer h4 {
     font-size: 1.4rem;
@@ -53,4 +55,65 @@
 }
 .pricingContainer .thirdPricing {
     background-color: black;
+}
+.pricingContainer p.from {
+    font-size: 1.8rem;
+    color: aliceblue;
+    text-align: center;
+    transform: translate(0, 3rem);
+}
+.pricingContainer p.discount {
+    color: orangered;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 100%;
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2 / 1;
+    background-color: black;
+    border: 1.6px solid orangered;
+    transform: translate(5.3rem, 3.8rem) rotate(25deg);
+}
+.pricingContainer p.oldPrice {
+    text-decoration: line-through;
+    color: orangered;
+    font-size: 2.2rem;
+    font-weight: 500;
+    background: rgb(35, 35, 35);
+    border-radius: 0.5rem;
+    margin: 2rem;
+    text-align: center;
+    border: 2px solid grey;
+}
+.pricingContainer p.newPrice {
+    color: rgb(116, 217, 103);
+    font-size: 2.6rem;
+    font-weight: 800;
+    transform: rotate(-20deg) translate(-1rem, -5rem);
+}
+.pricingContainer .free {
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pricingContainer .free .freeText {
+    color: rgb(116, 217, 103);
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 2.6rem;
+    border: 2px solid rgb(116, 217, 103);
+    background-color: rgb(35, 35, 35);
+}
+.pricingContainer .free .freeInfoText {
+    font-size: 1.3rem;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+    color: aliceblue;
+    text-align: center;
+    transform: translate(0, -1.5rem);
 }

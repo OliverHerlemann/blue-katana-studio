@@ -38,11 +38,9 @@ export default function Home() {
         </section>
         <section id="service">
           <ServiceSection t={t} />
-          <RequestsTo t={t} />
         </section>
         <section id="pricing">
           <Pricing t={t} />
-          <RequestsTo t={t} />
         </section>
         <section id="portfolio">
 

@@ -28,8 +28,8 @@
         "ServiceThree": "If desired, I also provide ongoing website maintenance and support. Through a service agreement, I handle technical maintenance, website management, as well as smaller updates and modifications to keep your website secure, up to date, and running smoothly."
     },
     "RequestsTo": "Send your request to: ",
-
-
+    "from": "From",
+    "freeInfoText": "When the other two packages get booked:",
 
     "legalNoticeAndPrivacyPolicy" : "Legal Notice & Privacy Policy"
 }
