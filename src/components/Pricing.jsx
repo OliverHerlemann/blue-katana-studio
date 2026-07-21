@@ -9,9 +9,12 @@ export default function Pricing({t}){
             <div className={styles.firstPricing}>
                 <h4>{t.ServiceSection.ServiceOneHeading}</h4>
                 <p className={styles.from}>{t.from}</p>
-                <p className={styles.discount}>-75%</p>
-                <p className={styles.oldPrice}>1000€</p>
-                <p className={styles.newPrice}>250€</p>
+                <div className={styles.firstPriceContainer} >
+                    <p className={styles.discount}>-75%</p>
+                    <p className={styles.oldPrice}>1000€</p>
+                    <p className={styles.newPrice}>250€</p>
+                </div>
+                
 
             </div>
             <div className={styles.secondPricing}>

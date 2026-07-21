@@ -37,6 +37,7 @@
     width: 28%;
     padding: 0rem;
     margin: 0rem;
+    position: relative;
 }
 .pricingContainer h4 {
     font-size: 1.4rem;
@@ -50,7 +51,6 @@
 }
 .pricingContainer .firstPricing {
     background-color: black;
-
 }
 .pricingContainer .secondPricing {
     background-color: black;
@@ -62,7 +62,14 @@
     font-size: 1.8rem;
     color: aliceblue;
     text-align: center;
-    transform: translate(0, 3rem);
+    margin-top: 4rem;
+    text-align: center;
+}
+.pricingContainer .firstPriceContainer {
+    position: absolute;
+    top: 10.5rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .pricingContainer p.discount {
     color: orangered;
@@ -80,8 +87,8 @@
 }
 .pricingContainer p.oldPrice {
     text-decoration: line-through;
-    color: rgb(246, 67, 2, 0.75);
-    font-size: 2.2rem;
+    color: rgb(246, 67, 2, 0.85);
+    font-size: 2.5rem;
     font-weight: 500;
     background: rgb(35, 35, 35);
     border-radius: 0.5rem;
@@ -91,7 +98,7 @@
 }
 .pricingContainer p.newPrice {
     color: rgb(116, 217, 103);
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: 800;
     transform: rotate(-20deg) translate(-1rem, -5rem);
 }
@@ -121,6 +128,9 @@
 }
 .pricingContainer .monthlyPay {
     color: rgb(116, 217, 103);
+    position: absolute;
+    top: 10.5rem;
+    left: 50%;
     width: 75%;
     margin: 0 auto;
     font-weight: 600;
@@ -128,6 +138,6 @@
     border-radius: 0.5rem;
     font-size: 2.5rem;
     border: 2px solid rgb(116, 217, 103);
-    transform: translate(0, 7rem);
+    transform: translate(-50%, 7rem);
     background-color: rgb(35, 35, 35);
 }
