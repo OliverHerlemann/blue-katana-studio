@@ -12,6 +12,7 @@ import ServiceSection from "@/components/ServiceSection";
 import RequestsTo from "@/components/RequestsTo";
 import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
 
@@ -43,7 +44,7 @@ export default function Home() {
           <Pricing t={t} />
         </section>
         <section id="portfolio">
-
+          <Portfolio t={t} />
         </section>
       </main>
       <footer>

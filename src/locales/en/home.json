@@ -31,5 +31,14 @@
     "from": "From",
     "freeInfoText": "When the other two packages get booked:",
 
+    "PortfolioList": {
+        "1": {
+        "Description" : "An interactive Quiz Game including different Jeopardy Quiz, a WannWarEs?-Modie, Soundeffects, award ceremony, and with the possibility to change the settings pre-Game. This Website is only available in german."
+        },
+        "2": {
+        "Description" : "An demonstration project about a non-real Sushi-Restaurant including different kinds if (AI generated) image Shows featuring the Sushirolls, the team or the location. This Website can be viewed in english or german."
+        }
+    },
+
     "legalNoticeAndPrivacyPolicy" : "Legal Notice & Privacy Policy"
 }

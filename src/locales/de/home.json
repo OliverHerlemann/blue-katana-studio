@@ -26,10 +26,19 @@
         "ServiceThreeHeading": "Wartung & Support",
         "ServiceThree": "Auf Wunsch betreue ich Ihre Website auch langfristig. Im Rahmen eines Servicevertrags kümmere ich mich um Wartung, technische Verwaltung sowie kleinere Anpassungen und Aktualisierungen."
     },
+
     "RequestsTo": "Senden Sie Ihre Anfrage an: ",
     "from": "Ab",
     "freeInfoText": "Wenn die anderen beiden Pakete gebucht werden:",
 
+    "PortfolioList": {
+        "1": {
+        "Description" : "Ein interaktives Quiz-Game mit mehreren Jeopardy Quiz, WannWarEs?-Modus, Soundeffekten, Siegerehrung und mit verschiedenen Einstellungsmöglichkeiten vor Spielbeginn. Diese Seite ist nur auf Deutsch verfügbar."
+        },
+        "2": {
+        "Description" : "Ein Demonstrationsprojekt über ein fiktives Sushi-Restaurant mit verschiedenen (KI generierten) Bildershows über die verschiedenen Sushi Rollen, das Team oder die Location des Restaurants. Die Sprache kann auf Deutsch oder Englisch gestellt werden."
+        }
+    },
 
     "legalNoticeAndPrivacyPolicy" : "Impressum & Datenschutzerklärung"
 }

@@ -18,7 +18,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-family: arial;
-  font-size: 2.4rem;
+  font-size: 2.7rem;
 }
 .page main p {
   margin: 0.5rem 3.5rem 0.5rem 3.5rem;
@@ -29,4 +29,7 @@
 
 .page footer {
   width: 100%;
+}
+.page section {
+  border-bottom: 3px solid aliceblue;
 }
