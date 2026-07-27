@@ -32,11 +32,13 @@
     "freeInfoText": "When the other two packages get booked:",
 
     "PortfolioList": {
+        "Demonstration": "Demo Project",
+        "Customer": "Customer Project",
         "1": {
-        "Description" : "An interactive Quiz Game including different Jeopardy Quiz, a WannWarEs?-Modie, Soundeffects, award ceremony, and with the possibility to change the settings pre-Game. This Website is only available in german."
+            "Description": "An interactive quiz game featuring multiple Jeopardy-style quizzes, a 'When Was It?' mode, sound effects, and an award ceremony. Players can customize a range of settings before starting. This site is available in German only."
         },
         "2": {
-        "Description" : "An demonstration project about a non-real Sushi-Restaurant including different kinds if (AI generated) image Shows featuring the Sushirolls, the team or the location. This Website can be viewed in english or german."
+            "Description": "A demonstration project for a fictional sushi restaurant, featuring AI-generated image galleries showcasing sushi rolls, the team, and the restaurant's location. Available in both German and English."
         }
     },
 

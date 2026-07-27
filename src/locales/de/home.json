@@ -32,11 +32,13 @@
     "freeInfoText": "Wenn die anderen beiden Pakete gebucht werden:",
 
     "PortfolioList": {
+        "Demonstration": "Demo-Projekt",
+        "Customer": "Kundenprojekt",
         "1": {
-        "Description" : "Ein interaktives Quiz-Game mit mehreren Jeopardy Quiz, WannWarEs?-Modus, Soundeffekten, Siegerehrung und mit verschiedenen Einstellungsmöglichkeiten vor Spielbeginn. Diese Seite ist nur auf Deutsch verfügbar."
+            "Description": "Ein interaktives Quiz-Game mit mehreren Jeopardy-Quiz-Modi, einem 'Wann war es?'-Modus, Soundeffekten und einer Siegerehrung. Vor Spielbeginn lassen sich zahlreiche Einstellungen individuell anpassen. Die Seite ist ausschließlich auf Deutsch verfügbar."
         },
         "2": {
-        "Description" : "Ein Demonstrationsprojekt über ein fiktives Sushi-Restaurant mit verschiedenen (KI generierten) Bildershows über die verschiedenen Sushi Rollen, das Team oder die Location des Restaurants. Die Sprache kann auf Deutsch oder Englisch gestellt werden."
+            "Description": "Ein Demonstrationsprojekt für ein fiktives Sushi-Restaurant mit KI-generierten Bildergalerien zu Sushi-Rollen, Team und Location. Die Seite ist auf Deutsch und Englisch verfügbar."
         }
     },
 

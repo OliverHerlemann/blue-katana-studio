@@ -1,5 +1,5 @@
 .mainPortfolio {
-    margin: 4.5rem 0.5rem 0rem 0rem;
+    margin: 4.5rem 0.5rem 3.5rem 0rem;
     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     width: 100%;
     display: flex;
@@ -53,6 +53,11 @@
     margin: 0.8rem;
     display: inline-block;
     color: rgb(76, 158, 186);
+}
+.mainPortfolio .portfolioListContainer .projectType {
+    color: darkgrey;
+    font-style: italic;
+        font-size: 1.2rem;
 }
 .mainPortfolio .portfolioListContainer p {
     font-size: 1.3rem;

@@ -36,3 +36,6 @@
 .page section {
   border-bottom: 3px solid aliceblue;
 }
+.page section:last-child {
+  border-bottom: none;
+}
