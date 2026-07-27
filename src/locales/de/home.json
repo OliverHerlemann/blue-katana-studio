@@ -1,7 +1,7 @@
 {
     "LangButton": "DE",
     "Heading2": "Webdesign und Entwicklung",
-    "ContactModalHeading": "Schickt mir eure Anfragen",
+    "ContactModalHeading": "Senden Sie Ihre Anfrage an: ",
     "Navigation": {
         "About": "Über mich",
         "Service": "Service",
@@ -26,5 +26,21 @@
         "ServiceThreeHeading": "Wartung & Support",
         "ServiceThree": "Auf Wunsch betreue ich Ihre Website auch langfristig. Im Rahmen eines Servicevertrags kümmere ich mich um Wartung, technische Verwaltung sowie kleinere Anpassungen und Aktualisierungen."
     },
-    "RequestsTo": "Senden Sie Ihre Anfrage an: "
+
+    "RequestsTo": "Senden Sie Ihre Anfrage an: ",
+    "from": "Ab",
+    "freeInfoText": "Wenn die anderen beiden Pakete gebucht werden:",
+
+    "PortfolioList": {
+        "Demonstration": "Demo-Projekt",
+        "Customer": "Kundenprojekt",
+        "1": {
+            "Description": "Ein interaktives Quiz-Game mit mehreren Jeopardy-Quiz-Modi, einem 'Wann war es?'-Modus, Soundeffekten und einer Siegerehrung. Vor Spielbeginn lassen sich zahlreiche Einstellungen individuell anpassen. Die Seite ist ausschließlich auf Deutsch verfügbar."
+        },
+        "2": {
+            "Description": "Ein Demonstrationsprojekt für ein fiktives Sushi-Restaurant mit KI-generierten Bildergalerien zu Sushi-Rollen, Team und Location. Die Seite ist auf Deutsch und Englisch verfügbar."
+        }
+    },
+
+    "legalNoticeAndPrivacyPolicy" : "Impressum & Datenschutzerklärung"
 }

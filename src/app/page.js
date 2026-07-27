@@ -10,6 +10,9 @@ import SelfPresentation from "@/components/SelfPresentation";
 import { useRef } from "react";
 import ServiceSection from "@/components/ServiceSection";
 import RequestsTo from "@/components/RequestsTo";
+import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
 
@@ -36,15 +39,17 @@ export default function Home() {
         </section>
         <section id="service">
           <ServiceSection t={t} />
-          <RequestsTo t={t} />
         </section>
         <section id="pricing">
-
+          <Pricing t={t} />
         </section>
         <section id="portfolio">
-
+          <Portfolio t={t} />
         </section>
       </main>
+      <footer>
+        <Footer t={t}/>
+      </footer>
     </div>
   );
 }

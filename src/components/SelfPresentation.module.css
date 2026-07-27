@@ -27,7 +27,8 @@
 .mainDiv .imgContainer img {
     height: 100%;
     width: auto;
-    transform: scale(1.9);
+    /* transform: scale(1.9); Für Oliver_Portrait.jpg*/
+    transform: translateX(1.3rem) scale(1.4);
 }
 @keyframes smoky {
     0% {box-shadow: 0 0 8px lightskyblue, 0 0 20px lightskyblue, 0 0 42px lightskyblue;}
