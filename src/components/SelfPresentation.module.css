@@ -1,0 +1,74 @@
+.mainDiv {
+    margin: 2rem 1.5rem 0.5rem 1.5rem;
+    padding: 1.2rem;
+    color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    height: 40rem;
+    max-height: 50rem;
+    width: auto;
+}
+.mainDiv .imgContainer {
+    /* overflow: hidden; */
+    height: 25rem;
+    width: auto;
+    border: solid 2.5px aliceblue;
+    transform: rotateZ(-15deg) translate(4rem, 4rem);
+    animation: smoky 2.0s infinite;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0) rotateZ(-15deg) translate(4rem, 4rem);
+}
+.mainDiv .imgClip {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.mainDiv .imgContainer img {
+    height: 100%;
+    width: auto;
+    /* transform: scale(1.9); Für Oliver_Portrait.jpg*/
+    transform: translateX(1.3rem) scale(1.4);
+}
+@keyframes smoky {
+    0% {box-shadow: 0 0 8px lightskyblue, 0 0 20px lightskyblue, 0 0 42px lightskyblue;}
+    50% {box-shadow: 0 0 12px aliceblue, 0 0 32px aliceblue;}
+    100% {box-shadow: 0 0 8px lightskyblue, 0 0 20px lightskyblue, 0 0 42px lightskyblue;}
+}
+
+.presentationText {
+    border-left: 3px solid aliceblue;
+    padding: 2.5rem 2.5rem;
+    margin: 1rem 5rem;
+    height: 18rem;
+    transform: translate(7rem, 3.5rem);
+}
+
+.presentationText h4 {
+    color: lightskyblue;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    margin-top: -0.3rem;
+}
+.mainDiv .presentationText p {
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0;
+}
+.mainDiv .presentationText p:nth-child(2) {
+    color: aliceblue;
+    margin-bottom: 0.9rem;
+}
+.mainDiv .presentationText p:nth-child(3) {
+    color: darkgrey;
+    font-style: italic;
+    margin: 0rem;
+    padding: 0;
+}
+
+.mainDiv .presentationText p:nth-child(4) {
+    color: white;
+    margin: 1.6rem 0rem;
+    padding: 0;
+}

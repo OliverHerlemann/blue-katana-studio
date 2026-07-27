@@ -1,0 +1,62 @@
+{
+  "LangButton": "EN",
+  "PageTitle": "Legal Notice & Privacy Policy",
+  "BackLink": "Back to Homepage",
+
+  "Impressum": {
+    "Heading": "Legal Notice",
+    "ResponsibleHeading": "Information according to § 5 DDG (German Digital Services Act)",
+    "Name": "Oliver Herlemann",
+    "BusinessNote": "Small business (Kleingewerbe) under German law",
+    "AddressLine1": "Wurmbergstr. 29",
+    "AddressLine2": "71063 Sindelfingen",
+    "AddressLine3": "Germany",
+
+    "BrandNoticeHeading": "Note regarding the name \"Blue Katana Studio\"",
+    "BrandNoticeText": "\"Blue Katana Studio\" is a freely chosen trade name used for recognition purposes only. It is not a registered company, brand, or separate legal entity. The legally responsible operator of this website and the sole contracting party for all services offered through this website is Oliver Herlemann, as stated above.",
+
+    "ContactHeading": "Contact",
+    "EmailLabel": "Email",
+    "Email": "info@bluekatanastudio.com",
+
+    "VatHeading": "VAT",
+    "VatText": "In accordance with § 19 (1) of the German VAT Act (Kleinunternehmerregelung / small business regulation), no VAT is charged.",
+
+    "DisputeHeading": "Consumer dispute resolution",
+    "DisputeText": "I am not willing and not obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
+
+    "LiabilityContentHeading": "Liability for content",
+    "LiabilityContentText": "The content of this website has been created with care. However, no guarantee is given for the accuracy, completeness, or timeliness of the content. As a service provider, I am responsible for my own content on these pages in accordance with general legal provisions, but am not obligated to monitor transmitted or stored third-party information.",
+
+    "LiabilityLinksHeading": "Liability for links",
+    "LiabilityLinksText": "This website contains links to external third-party websites, including websites of customer projects, over whose content I have no influence. Therefore, I cannot accept any liability for this external content. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking; no unlawful content was identifiable at that time. However, permanent monitoring of the content of linked pages is not reasonable without concrete evidence of a legal violation. If I become aware of any legal violations, I will remove such links immediately."
+  },
+
+  "Privacy": {
+    "Heading": "Privacy Policy",
+
+    "ResponsibleHeading": "Controller",
+    "ResponsibleText": "The controller responsible for data processing on this website is Oliver Herlemann (contact details in the Legal Notice above).",
+
+    "HostingHeading": "Hosting",
+    "HostingText": "This website is hosted by ALL-INKL.COM (Neue Mediengesellschaft Ulm mbH). When you visit this website, the hosting provider automatically processes technical data (e.g. IP address, date and time of access, page accessed, browser used) in the form of server log files. This processing is based on Art. 6 (1)(f) GDPR (legitimate interest in the secure and stable operation of the website).",
+
+    "FontsHeading": "Fonts",
+    "FontsText": "This website uses Google Fonts. However, the font files are not loaded live from Google's servers on each page visit. Instead, they are embedded locally at build time and served from this website's own server. No connection to Google's servers is established and no data is transmitted to Google.",
+
+    "ContactHeading": "Contact",
+    "ContactText": "The contact button on this website simply opens the email program installed on your own device with a pre-filled recipient address (mailto link). No data is transmitted to me or to any server through this button; whether and what data you send me by email is entirely your own decision when composing and sending that email through your own email program.",
+
+    "CookiesHeading": "Cookies",
+    "CookiesText": "This website does not use cookies or any comparable tracking or analytics technologies.",
+
+    "RightsHeading": "Your rights",
+    "RightsText": "You have the right at any time to request information about your stored personal data, its origin and recipients, and the purpose of its processing (Art. 15 GDPR), as well as, where applicable, a right to rectification (Art. 16 GDPR), erasure (Art. 17 GDPR), restriction of processing (Art. 18 GDPR), and data portability (Art. 20 GDPR).",
+
+    "ComplaintHeading": "Right to lodge a complaint",
+    "ComplaintText": "You have the right to lodge a complaint with a data protection supervisory authority regarding the processing of your personal data. The competent authority is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg (Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg).",
+
+    "ChangeHeading": "Changes to this privacy policy",
+    "ChangeText": "This privacy policy will be updated as needed to reflect changes in legal requirements or changes to the service."
+  }
+}

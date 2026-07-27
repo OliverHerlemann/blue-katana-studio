@@ -1,0 +1,70 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(34, 34, 38);
+    width: 70%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.page .backLink {
+    margin: 1.5rem 3.5rem 0.3rem 3.5rem;
+    color: rgb(76, 158, 186);
+    font-size: 2.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid darkgrey;
+    background-color: rgb(62, 62, 62);
+    padding: 0.7rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 0.2rem;
+}
+.page .backLink:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 14px grey,
+    0 0 28px grey;
+}
+.page main h4 {
+  margin: 1.5rem 3.5rem 0.3rem 3.5rem;
+  padding: 0.3rem;
+  color: rgb(148, 200, 217);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.page main {
+  min-height: 150vh;
+}
+.page main h3 {
+  margin: 1rem 3.5rem 1rem 3.5rem;
+  padding: 0.5rem;
+  color: lightskyblue;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: arial;
+  font-size: 2.7rem;
+}
+.page main p {
+  margin: 0.1rem 3.5rem 0.1rem 3.5rem;
+  padding: 0 0.5rem;
+  color: aliceblue;
+  font-size: 1.3rem;
+}
+.page main p:last-child {
+  margin-bottom: 3rem;
+}
+.page main p a {
+    color: rgb(76, 158, 186);
+}
+
+.page footer {
+  width: 100%;
+}
+.page section {
+  padding: 4rem 0rem;
+  border-bottom: 3px solid aliceblue;
+}
+.page section:last-child {
+  border-bottom: none;
+}
