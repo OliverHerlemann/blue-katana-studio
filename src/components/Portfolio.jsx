@@ -1,7 +1,7 @@
 import styles from "./Portfolio.module.css";
 
 
-const portfolioList = [{name: "Quiz Runde", id: 1, url: "https://quizrunde.com/"}, 
+const portfolioList = [{name: "Quiz Runde", id: 1, url: "https://quizrunde.com"}, 
     {name: "Herlemann - Sushi", id: 2, url: "https://www.herlemann-sushi.com"}];
 
 export default function Portfolio({t}){
@@ -9,7 +9,16 @@ export default function Portfolio({t}){
             <h3>{t.Navigation.Portfolio}</h3>
             <div className={styles.portfolioListContainer}>
                 <ul>
-
+                        {portfolioList.map((item, index) => {return (
+                            <li key={item.id}>
+                                <h4>{item.name}</h4>{" "}<span>/</span>{" "}
+                                <a href={item.url}
+                                target="_blank" rel="noopener noreferrer" 
+                                >
+                                {"www." + item.url.replace("https://", "").replace("www.", "")}</a>
+                                <p>{t.PortfolioList[item.id].Description}</p>
+                            </li>)
+                        })}
                 </ul>
             </div>
     </div>

@@ -21,3 +21,42 @@
     width: 92%;
     min-height: 28rem;
 }
+.mainPortfolio .portfolioListContainer ul {
+    list-style: none;
+    padding: 0.8rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.mainPortfolio .portfolioListContainer li {
+    background-color: rgb(62, 62, 62);
+    box-shadow: 0 0 12px rgba(255,255,255,0.25);
+    padding: 0.8rem;
+    margin: 0;
+    border-radius: 1rem;
+}
+.mainPortfolio .portfolioListContainer h4 {
+    margin: 0.8rem;
+    color: lightskyblue;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.mainPortfolio .portfolioListContainer span {
+    color: aliceblue;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.mainPortfolio .portfolioListContainer a {
+    font-size: 1.4rem;
+    margin: 0.8rem;
+    display: inline-block;
+    color: rgb(76, 158, 186);
+}
+.mainPortfolio .portfolioListContainer p {
+    font-size: 1.3rem;
+    color: aliceblue;
+    padding: 0rem;
+    margin: 0.8rem;
+}

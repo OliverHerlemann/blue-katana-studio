@@ -38,6 +38,7 @@
 .mainServiceContainer .ServiceDisplay .infoBox {
     border-radius: 0.9rem;
     background-color: rgb(62, 62, 62);
+    box-shadow: 0 0 12px rgba(255,255,255,0.25);
     width: 95%;
     align-self: center;
 } 
