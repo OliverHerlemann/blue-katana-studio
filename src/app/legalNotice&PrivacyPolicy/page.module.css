@@ -68,3 +68,8 @@
 .page section:last-child {
   border-bottom: none;
 }
+@media (max-width: 768px) {
+    .page {
+        width: 100%;
+    }
+}
