@@ -5,7 +5,7 @@ export default function SelfPresentation({t}) {
     return <div className={styles.mainDiv}>
         <div className={styles.imgContainer}>
             <div className={styles.imgClip}>
-                <img src="/Oliver_Portrait.jpg" alt="Portrait of the Founder" />
+                <img src="/Self_Portrait.jpg" alt="Portrait of the Founder" />
             </div>
         </div>
         <div className={styles.presentationText}>

@@ -1,4 +1,5 @@
 import styles from "./ServiceSection.module.css";
+import RequestsTo from "@/components/RequestsTo";
 
 
 export default function ServiceSection({t}){
@@ -20,5 +21,6 @@ export default function ServiceSection({t}){
                 <p>{t.ServiceSection.ServiceThree}</p>
             </div>
         </div>
+        <RequestsTo t={t} />
     </div>
 }

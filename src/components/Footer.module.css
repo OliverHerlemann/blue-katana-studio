@@ -1,0 +1,16 @@
+.footerDiv {
+    background-color: black;
+    padding: 0.5rem;
+    border-top: solid 3.5px grey;
+    height: auto;
+    min-height: 6rem;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.footerDiv a {
+    margin: 0.8rem;
+}

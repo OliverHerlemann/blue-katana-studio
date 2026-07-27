@@ -1,7 +1,7 @@
 {
     "LangButton": "EN",
     "Heading2": "Webdesign and Development",
-    "ContactModalHeading": "Send me your requests",
+    "ContactModalHeading": "Send your request to: ",
     "Navigation": {
         "About": "About me",
         "Service": "Service",
@@ -27,5 +27,20 @@
         "ServiceThreeHeading": "Maintenance & Support",
         "ServiceThree": "If desired, I also provide ongoing website maintenance and support. Through a service agreement, I handle technical maintenance, website management, as well as smaller updates and modifications to keep your website secure, up to date, and running smoothly."
     },
-    "RequestsTo": "Send your request to: "
+    "RequestsTo": "Send your request to: ",
+    "from": "From",
+    "freeInfoText": "When the other two packages get booked:",
+
+    "PortfolioList": {
+        "Demonstration": "Demo Project",
+        "Customer": "Customer Project",
+        "1": {
+            "Description": "An interactive quiz game featuring multiple Jeopardy-style quizzes, a 'When Was It?' mode, sound effects, and an award ceremony. Players can customize a range of settings before starting. This site is available in German only."
+        },
+        "2": {
+            "Description": "A demonstration project for a fictional sushi restaurant, featuring AI-generated image galleries showcasing sushi rolls, the team, and the restaurant's location. Available in both German and English."
+        }
+    },
+
+    "legalNoticeAndPrivacyPolicy" : "Legal Notice & Privacy Policy"
 }
