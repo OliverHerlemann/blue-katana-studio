@@ -1,5 +1,6 @@
 .navDiv {
     width: 70vw;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,4 +70,11 @@
         drop-shadow(0 0 6px rgb(148, 200, 217))
         drop-shadow(0 0 12px lightskyblue)
         drop-shadow(0 0 18px lightskyblue);
+}
+@media (max-width: 768px) {
+    .navDiv {
+        gap: 0.2rem;
+        font-size: 1.2rem;
+        width: 100%;
+    }
 }
