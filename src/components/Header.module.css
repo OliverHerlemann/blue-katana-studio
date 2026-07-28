@@ -75,3 +75,15 @@
   z-index: 2;
   font-family: arial;
 }
+@media (max-width: 768px) {
+    .mainHeader h1 {
+        font-size: 2.8rem;
+    }
+    .mainHeader h2 {
+      font-size: 1.25rem;
+    }
+    .mainHeader img {
+      width: 80%;
+      max-width: 20rem;
+    }
+}

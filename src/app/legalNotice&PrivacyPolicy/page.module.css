@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: flex-start;
     background: rgb(34, 34, 38);
-    width: 70%;
+    width: 70vw;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -64,6 +64,7 @@
 .page section {
   padding: 4rem 0rem;
   border-bottom: 3px solid aliceblue;
+  max-width: 100%;
 }
 .page section:last-child {
   border-bottom: none;

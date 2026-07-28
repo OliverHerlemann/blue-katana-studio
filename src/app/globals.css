@@ -26,3 +26,16 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+    .mainServiceContainer,
+    .mainPortfolio {
+        margin: 1rem 0.5rem;
+        padding: 1.2rem;
+    }
+    .ServiceDisplay,
+    .portfolioListContainer {
+        width: 100%;
+        padding: 1.2rem;
+    }
+}
