@@ -21,12 +21,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: clamp(1rem, 4vw, 4rem);
     border-radius: 1rem;
     width: 95%;
     height: auto;
     margin: 1.5rem 0.5rem 0.5rem 0.5rem;
     padding: 1.4rem;
+    box-sizing: border-box;
 }
 .pricingContainer .firstPricing,
 .pricingContainer .secondPricing,
@@ -34,7 +35,9 @@
     background-color: black;
     box-shadow: 0 0 12px rgba(5,5,5,0.5);
     border-radius: 0.5rem;
-    height: 30rem;
+    height: auto;
+    min-width: 0;
+    min-height: 30rem;
     width: 28%;
     padding: 0rem;
     margin: 0rem;
@@ -50,21 +53,11 @@
     padding: 0.4rem;
     border-bottom: 3px solid aliceblue;
 }
-.pricingContainer .firstPricing {
-    background-color: black;
-}
-.pricingContainer .secondPricing {
-    background-color: black;
-}
-.pricingContainer .thirdPricing {
-    background-color: black;
-}
 .pricingContainer p.from {
     font-size: 1.8rem;
     color: aliceblue;
     text-align: center;
     margin-top: 4rem;
-    text-align: center;
 }
 .pricingContainer .firstPriceContainer {
     position: absolute;
@@ -141,4 +134,15 @@
     border: 2px solid rgb(116, 217, 103);
     transform: translate(-50%, 7rem);
     background-color: rgb(35, 35, 35);
+}
+
+@media (max-width: 768px) {
+    .pricingContainer {
+        flex-direction: column;
+    }
+    .pricingContainer .firstPricing,
+    .pricingContainer .secondPricing,
+    .pricingContainer .thirdPricing {
+        width: 75%;
+    }
 }

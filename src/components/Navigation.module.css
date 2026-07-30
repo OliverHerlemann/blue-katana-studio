@@ -71,10 +71,9 @@
         drop-shadow(0 0 12px lightskyblue)
         drop-shadow(0 0 18px lightskyblue);
 }
-@media (max-width: 768px) {
+@media (max-width: 1145px) {
     .navDiv {
-        gap: 0.2rem;
-        font-size: 1.2rem;
-        width: 100%;
+        opacity: 0;
+        pointer-events: none;
     }
 }
